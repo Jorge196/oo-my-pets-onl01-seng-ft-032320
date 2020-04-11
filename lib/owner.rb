@@ -9,7 +9,7 @@ class Owner
   def initialize(name)
     @name = name
     @@all << self
-    
+
     @species = "human"
   end
 
@@ -55,6 +55,9 @@ end
 
 
   def sell_pets
+    self.pets.each do |pet|
+      pet.mood = "nervous"
+    end 
 
   end
 
