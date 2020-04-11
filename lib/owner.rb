@@ -2,7 +2,7 @@ class Owner
   # code goes here
   @@all= []
   attr_accessor
-  attr_reader :species, :name, :cats, :dogs, :mood
+  attr_reader :species, :name, :cats, :dogs
 
   # Instance Methods #
 
