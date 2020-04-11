@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   @@all= []
-  attr_accessor 
+  attr_accessor
   attr_reader :species, :name, :cats, :dogs, :mood
 
   # Instance Methods #
@@ -41,7 +41,7 @@ class Owner
 
 
   def walk_dogs
-    @dogs.each do |dog|
+    @dogs.each do |dogs|
       dog.mood = "happy"
     end
   end
