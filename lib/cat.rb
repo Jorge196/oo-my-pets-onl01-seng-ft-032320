@@ -5,7 +5,7 @@ class Cat
 
   @@cats = []
 
-  def initialize(name, owner, mood="nervous")
+  def initialize(name, owner, mood)
     @name = name
     @owner = owner
     owner.cats << self
@@ -15,7 +15,7 @@ class Cat
 
   def name
     @name
-  end 
+  end
 
   def self.all
     @@cats
