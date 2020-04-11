@@ -5,10 +5,10 @@ class Dog
 
   @@dogs = []
 
-  def initialize(name, owner, mood)
+  def initialize(name, owner, mood="nervous")
     @name = name
     @owner = owner
-    @mood = "nervous"
+    @mood = mood
     owner.dogs << self
     @@dogs << self
   end
