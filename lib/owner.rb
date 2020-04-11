@@ -12,7 +12,6 @@ class Owner
     @dogs = []
     @cats = []
     @species = "human"
-    @mood = mood 
   end
 
   def cats
