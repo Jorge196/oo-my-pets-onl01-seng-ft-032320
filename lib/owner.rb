@@ -12,6 +12,7 @@ class Owner
     @dogs = []
     @cats = []
     @species = "human"
+    @mood = mood 
   end
 
   def cats
@@ -50,7 +51,7 @@ class Owner
     @cats.each do |cat|
       cat.mood = "happy"
   end
-end 
+end
 
 
 
