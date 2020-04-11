@@ -1,7 +1,7 @@
 class Cat
   # code goes here
   attr_accessor  :owner, :mood
-  attr_reader  :name
+
 
   @@cats = []
 
@@ -12,6 +12,10 @@ class Cat
     @mood = mood
     @@cats << self
   end
+
+  def name
+    @name
+  end 
 
   def self.all
     @@cats
