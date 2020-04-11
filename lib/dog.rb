@@ -1,7 +1,6 @@
 class Dog
 
-  attr_accessor :owner
-  attr_reader :mood
+  attr_accessor :owner, :mood
 
 
   @@dogs = []
