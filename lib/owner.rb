@@ -55,8 +55,7 @@ end
 
 
   def sell_pets
-    @all.each do |all|
-      all.mood = "nervous"
+    mood = "nervous"
     end
 
   end
