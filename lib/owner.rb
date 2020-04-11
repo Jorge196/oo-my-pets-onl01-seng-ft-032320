@@ -58,7 +58,6 @@ end
     mood = "nervous"
     end
 
-  end
 
   def list_pets
 
