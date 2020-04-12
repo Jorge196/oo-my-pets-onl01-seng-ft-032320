@@ -63,6 +63,7 @@ end
     binding.pry
     arrayofpets.each do |pet|
       pet.mood = "nervous"
+      
     end
 end
 
