@@ -57,7 +57,7 @@ end
 
 
   def sell_pets
-      [dogs, cats].each {|o| o.mood = "nervous"}
+      @owner.sell_pets 
   end
 
 
