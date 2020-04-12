@@ -62,12 +62,10 @@ end
     end
     pets.clear
   end
-end 
+end
 
 
   def list_pets
-    self.list_pets =
-
   end
 
   # Class Methods #
