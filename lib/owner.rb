@@ -55,7 +55,7 @@ end
 
 
   def sell_pets
-    self.sell_pets = "nervous"
+    sell_pets.mood = "nervous"
     end
 
 
