@@ -65,7 +65,7 @@ end
 
 
   def list_pets
-    
+    self.list_pets = 
 
   end
 
