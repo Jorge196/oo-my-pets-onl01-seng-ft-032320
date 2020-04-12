@@ -68,9 +68,9 @@ end
 
 
   def list_pets
-    binding.pry
-    arrayofpets = self.dogs + self.cats
     
+    arrayofpets = self.dogs + self.cats
+
       # "I have #{owner.dogs.count} dog(s), and #{owner.cats.count} cat(s). "
   end
 
