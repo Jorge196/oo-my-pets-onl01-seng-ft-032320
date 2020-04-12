@@ -55,7 +55,7 @@ end
 
 
   def sell_pets
-    @owner.sell_pets = "nervous"
+    self.sell_pets = "nervous"
     end
 
 
