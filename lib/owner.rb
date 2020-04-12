@@ -59,15 +59,16 @@ end
 
 
   def sell_pets
+    arrayofpets = self.dogs + self.cats
     binding.pry
-    @pets.each do |pet|
+    arrayofpets.each do |pet|
       pet.mood = "nervous"
     end
 end
 
 
   def list_pets
-    
+
     @self.list_pets = "I have #{owner.dogs.count} dog(s), and #{owner.cats.count} cat(s). "
   end
 
