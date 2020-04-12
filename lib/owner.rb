@@ -61,8 +61,8 @@ end
       pets.map {|pets| pet.mood = "nervous"}
     end
     pets.clear
-
   end
+end 
 
 
   def list_pets
