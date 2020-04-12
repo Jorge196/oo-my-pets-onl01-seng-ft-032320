@@ -1,4 +1,6 @@
+require 'pry'
 class Owner
+
   # code goes here
   @@all= []
   attr_accessor :mood, :pets
@@ -57,6 +59,7 @@ end
 
 
   def sell_pets
+    binding.pry
     @pets.each do |pet|
       pet.mood = "nervous"
     end
@@ -64,6 +67,7 @@ end
 
 
   def list_pets
+    
     @self.list_pets = "I have #{owner.dogs.count} dog(s), and #{owner.cats.count} cat(s). "
   end
 
