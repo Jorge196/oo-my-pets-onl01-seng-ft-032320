@@ -57,15 +57,12 @@ end
 
 
   def sell_pets
-      @owner.sell_pets.each  do |pets|
-        pet.mood = "nervous"
-      end
-    end
+      
   end
 
 
   def list_pets
-    self.list_pets = 
+    self.list_pets =
 
   end
 
