@@ -57,12 +57,7 @@ end
 
 
   def sell_pets
-    pets.each do |species, animals|
-      animals.each do |animal|
-        animal.mood = "nervous"
-      end
-      animals.clear
-    end 
+      [fido, tabby].each {|o| o.mood = "nervous"}
   end
 
 
