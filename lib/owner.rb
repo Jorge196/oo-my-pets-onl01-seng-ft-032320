@@ -60,10 +60,9 @@ end
 
   def sell_pets
     arrayofpets = self.dogs + self.cats
-    binding.pry
     arrayofpets.each do |pet|
       pet.mood = "nervous"
-      pet.owner = nil 
+      pet.owner = nil
     end
 end
 
