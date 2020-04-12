@@ -1,7 +1,7 @@
 class Owner
   # code goes here
   @@all= []
-  attr_accessor :mood
+  attr_accessor :mood, :pets
   attr_reader :species, :name, :cats, :dogs
 
   # Instance Methods #
@@ -9,6 +9,8 @@ class Owner
   def initialize(name)
     @name = name
     @@all << self
+    @pets = {:cats => [], :dogs => []}
+
 
     @species = "human"
   end
