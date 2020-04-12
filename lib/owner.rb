@@ -68,10 +68,7 @@ end
 
 
   def list_pets
-    
-    arrayofpets = self.dogs + self.cats
-
-      # "I have #{owner.dogs.count} dog(s), and #{owner.cats.count} cat(s). "
+      "I have #{dogs.count} dog(s), and #{cats.count} cat(s). "
   end
 
   # Class Methods #
