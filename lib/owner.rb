@@ -64,7 +64,7 @@ end
 
 
   def list_pets
-    @owner.list_pets = "I have #{owner.dogs.count} dog(s), and #{owner.cats.count} cat(s). "
+    @self.list_pets = "I have #{owner.dogs.count} dog(s), and #{owner.cats.count} cat(s). "
   end
 
   # Class Methods #
