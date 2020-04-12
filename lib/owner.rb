@@ -57,7 +57,7 @@ end
 
 
   def sell_pets
-      [fido, tabby].each {|o| o.mood = "nervous"}
+      [dogs, cats].each {|o| o.mood = "nervous"}
   end
 
 
